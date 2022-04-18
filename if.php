@@ -1,7 +1,7 @@
 <?php
 echo '<pre>';
 
-  $n =1;
+  $n =5;
   function print_tree($n, $str, $max) {
     for ($i = 0; ($i < (($max - $n) / 2)); $i++) {
       echo "&nbsp;";
